@@ -32,6 +32,9 @@ name = "{{ repo.name }}"
 
 # who has r+ rights?
 reviewers = {{ homu.reviewers }}
+{% if homu.auth_collaborators %}
+auth_collaborators = true
+{% endif %}
 
 [repo.'{{ repo.slug }}'.github]
 
