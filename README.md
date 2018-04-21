@@ -5,20 +5,9 @@
 [Heroku]: https://www.heroku.com
 
 Homu is a CI service that helps you enforce the "never break the build" policy in your GitHub
-repositories (for more details about Homu check its [GitHub repository][Homu] and [homu.io]).
+repositories (for more details about Homu check its [GitHub repository][Homu]).
 
-[Homu]: https://github.com/barosl/homu
-
-[homu.io] is a Homu instance plus a front-end that lets you easily use Homu with your repositories.
-However, right now homu.io is not accepting registration of new repositories, though its associated
-[@homu] bot is still working non-stop on the repositories that were already registered.
-
-[homu.io]: http://homu.io/
-[@homu]: https://github.com/homu
-
-Until [homu.io] "re-opens" its registration page, you can deploy your own Homu instance on a free
-Heroku dyno and use it with all your repositories. The rest of this document will tell you how to do
-that.
+[Homu]: https://github.com/servo/homu
 
 ~~**WARNING** This document doesn't cover how to use Homu or explain Homu terminology like "r+"
 because that's covered by the [homu.io] website.~~ Actually, I'm going to cover a little on how Homu
